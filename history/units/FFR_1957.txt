@@ -1,0 +1,147 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Division d'Infanterie"		
+	division_names_group = FRA_INF_01
+	# Main Division, kinda crappy but it's reflecting the poor army of the French Rep.
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Brigade de Milice Locale"			# Represents: 2xRgt colonial forces and , usually with old equipment
+	division_names_group = FRA_COL_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Brigade de Chars de Combat" 	# Brigade de Chars de Combat, independent armor brigades of 2x Rgts., 2 Bns. each
+	division_names_group = FRA_ARM_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+}
+
+##### OOB #####
+units = {
+	division= {
+		name = "1ère division d'infanterie"
+		location = 1145
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "2e division d'infanterie"
+		location = 3838
+		division_template = "Division d'Infanterie"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "3e division d'infanterie"
+		location = 9994
+		division_template = "Division d'Infanterie"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.1
+	}
+	division= {
+		name = "4e division d'infanterie"
+		location = 7132
+		division_template = "Division d'Infanterie"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "1re brigade de chars de combat"
+		location = 12051
+		division_template = "Division d'Infanterie"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "Brigade de Milice Locale"
+		location = 7005
+		division_template = "Brigade de Milice Locale"
+		start_equipment_factor = 0.6
+	}
+	division= {
+		name = "Brigade de Milice Locale"
+		location = 11969
+		division_template = "Brigade de Milice Locale"
+		start_equipment_factor = 0.7
+	}
+	division= {
+		name = "Brigade de Milice Locale"
+		location = 1145
+		division_template = "Brigade de Milice Locale"
+		start_equipment_factor = 0.75
+	}
+	division= {
+		name = "Brigade de Milice Locale"
+		location = 7081
+		division_template = "Brigade de Milice Locale"
+		start_equipment_factor = 0.65
+	}
+}
+
+### Air Wings
+air_wings = {
+	459 = { 
+		fighter_equipment_0 = {
+			owner = "FRA" 
+			amount = 72
+		}
+		tac_bomber_equipment_1 =  {
+			owner = "FRA" 
+			amount = 24
+		}
+	}
+	1 = { 
+		fighter_equipment_0 = {
+			owner = "FRA" 
+			amount = 24
+		}
+	}
+	458 = { 
+		fighter_equipment_0 = {
+			owner = "FRA" 
+			amount = 24
+		}
+		tac_bomber_equipment_1 =  {
+			owner = "FRA" 
+			amount = 24
+		}
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "FRA"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+
+}
+
+###################

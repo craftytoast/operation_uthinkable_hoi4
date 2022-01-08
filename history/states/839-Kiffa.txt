@@ -1,0 +1,27 @@
+state={
+	id=839
+	name="STATE_839"
+	provinces={
+		8058 10814 
+	}
+	resources={
+		steel=3
+		oil=1
+	}
+	history={
+		owner = MRT
+		add_core_of = MRT
+		victory_points = {
+			8058 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=115920
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

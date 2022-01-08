@@ -1,0 +1,44 @@
+bookmarks = {
+	bookmark = {
+		name = "Operation Unthinkable: Red Continent"
+		desc = "OURC_DESC"
+		date = 1957.1.1.1
+		picture = "GFX_select_date_1939"
+		default_country = "SOV"
+
+		SOV = {
+			history = SOV_OURC_DESC
+			ideology = communism
+			ideas = {
+				SOV_second_five_year_plan_fake_1939_ns
+			}
+			focuses = {
+				SOV_found_the_comecon
+				SOV_father_of_nations
+				SOV_patriarch_of_all_russia
+			}
+		}
+
+		"---"={
+			history = "OTHER_OURC_DESC"
+		}
+
+		#### minors ####
+		"SPR"={
+			minor = yes
+			history = "SPAIN_OURC_DESC"
+			ideology = fascism
+			ideas = {
+				SPA_carlism_4
+				SPA_recovering_from_civil_war
+			}
+			focuses = {
+				SPA_the_spanish_miracle
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
