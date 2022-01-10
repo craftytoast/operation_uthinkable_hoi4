@@ -13,16 +13,15 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 3
 		}
 		add_core_of = YUG
 		add_core_of = SER
 		add_core_of = TRA
+		add_core_of = VJV
 	}
 
 	provinces={
 		614 3614 6643 11787
 	}
-
-	local_supplies=2.0 
 }

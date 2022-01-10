@@ -1,26 +1,23 @@
 state={
-	id=45
-	name="STATE_45"
-
-	history={
+	id=835
+	name="STATE_835"
+	history = {
+		owner = CRO
+		controller = CRO
+		
 		victory_points = {
-			3617 3 
+			11574 3
 		}
-		owner = YUG
 		buildings = {
 			infrastructure = 3
-
 		}
+		add_core_of = CRO
 		add_core_of = YUG
-		add_core_of = SER
-		add_core_of = VJV
-
 	}
-
 	provinces={
-		619 3617 3623 9621 13250 13259
+		11574 13237 
 	}
-	manpower=776376
+	manpower=73384
 	buildings_max_level_factor=1.000
 	state_category=city
 }

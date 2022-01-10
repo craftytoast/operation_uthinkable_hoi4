@@ -2,24 +2,28 @@ state=
 {
 	id=163
 	name="STATE_163"
-	manpower = 18000
+	manpower = 28894
 	
-	state_category = enclave
+	state_category = city
 	
-	history={
-		owner = YUG
+	history = {
+		owner = ITA
+		controller = ITA
+		
+		victory_points = {
+			13241 5
+		}
 		buildings = {
-			infrastructure = 2 #was: 5
-			3943 = {
-				naval_base = 1
+			infrastructure = 3
+			13241 = {
+				naval_base = 2
 			}
 		}
 		add_core_of = YUG
 		add_core_of = CRO
-	} 
-	provinces={	
-		3943 
+		start_resistance = CRO #Yugoslavia shouldn't resist occupation
 	}
-
-	local_supplies=0.0 
+	provinces={	
+		13241
+	}
 }

@@ -1,26 +1,23 @@
 state={
-	id=45
-	name="STATE_45"
-
-	history={
-		victory_points = {
-			3617 3 
-		}
+	id=842
+	name="STATE_842"
+	history = {
 		owner = YUG
+		controller = YUG
+		
 		buildings = {
 			infrastructure = 3
-
+			industrial_complex = 1
 		}
 		add_core_of = YUG
+		add_claim_by = CRO
 		add_core_of = SER
 		add_core_of = VJV
-
 	}
-
 	provinces={
-		619 3617 3623 9621 13250 13259
+		9608 
 	}
-	manpower=776376
+	manpower=36432
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category = city
 }

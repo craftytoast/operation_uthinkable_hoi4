@@ -1,9 +1,9 @@
 state={
-	id=104
-	name="STATE_104"
+	id=844
+	name="STATE_844"
 	
 	resources={
-		aluminium = 6
+		aluminium = 4
 	}
 
 	history={
@@ -11,30 +11,30 @@ state={
 		controller = YUG
 		
 		victory_points = {
-			11899 5 
+			6983 3 
 		}
-		
+		victory_points = {
+			9586 3
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			air_base = 2
 
 		}
-		
 		add_core_of = YUG
 		add_core_of = BOS
 
 	}
 
-	provinces = {
-		606 982 6799 11572 11741 11872 11899
+	provinces={
+		3985 6614 6619 6957 6983 9586 9588 9591 9922
 	}
 	
 	resources = {
-		aluminium = 6
+		aluminium = 4
 	}
 	
-	manpower=1154354
+	manpower=1264353
 	buildings_max_level_factor=1.000
 	state_category=town
 }
