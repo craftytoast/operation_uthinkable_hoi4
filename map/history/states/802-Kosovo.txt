@@ -1,28 +1,31 @@
 state={
-	id=108
-	name="STATE_108"
-	resources={
-		steel=3.000
-	}
+	id=802
+	name="STATE_802"
 
-	history={
+	history = {
+	
 		victory_points = {
-			9602 3 
+			9874 3
 		}
+		
 		owner = YUG
+		controller = YUG
+		
 		buildings = {
 			infrastructure = 2
-
 		}
+		
 		add_core_of = YUG
+		add_core_of = KOS
 		add_core_of = SER
 
 	}
 
 	provinces={
-		630 3939 6970 6998 9602 9756 9906 11887 13254 13255
+		6940 9849 9874 9890 6953
 	}
-	manpower=707000
+	
+	manpower=636126
 	buildings_max_level_factor=1.000
 	state_category=town
 }
