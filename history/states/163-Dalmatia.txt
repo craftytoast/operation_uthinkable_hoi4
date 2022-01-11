@@ -2,28 +2,24 @@ state=
 {
 	id=163
 	name="STATE_163"
-	manpower = 28894
+	manpower = 38000
 	
-	state_category = city
+	state_category = pastoral
 	
-	history = {
-		owner = ITA
-		controller = ITA
-		
-		victory_points = {
-			13241 5
-		}
+	history={
+		owner = YUG
 		buildings = {
-			infrastructure = 3
-			13241 = {
-				naval_base = 2
+			infrastructure = 2 #was: 5
+			3943 = {
+				naval_base = 1
 			}
 		}
 		add_core_of = YUG
 		add_core_of = CRO
-		start_resistance = CRO #Yugoslavia shouldn't resist occupation
-	}
+	} 
 	provinces={	
-		13241
+		3943 
 	}
+
+	local_supplies=0.0 
 }

@@ -2,9 +2,9 @@
 state={
 	id=658
 	name="STATE_658"
-	manpower = 170200
+	manpower = 373200
 	resources={
-		oil=5 # was: 6
+		oil=15 # was: 6
 	}
 	
 	state_category = pastoral
@@ -12,7 +12,7 @@ state={
 
 	history={
 		add_core_of = UAE
-		owner = ENG
+		owner = UAE
 		victory_points = {
 			7960 1 
 		}

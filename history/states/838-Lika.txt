@@ -2,8 +2,7 @@ state={
 	id=838
 	name="STATE_838"
 	history = {
-		owner = CRO
-		controller = CRO
+		owner = YUG
 		
 		victory_points = {
 			3601 3
@@ -23,7 +22,7 @@ state={
 		aluminium = 3
 	}
 	
-	manpower=84634
+	manpower=414634
 	buildings_max_level_factor=1.000
 	state_category=town
 }

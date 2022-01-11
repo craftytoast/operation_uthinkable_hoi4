@@ -9,7 +9,6 @@ if = {
 	}
 }
 
-recruit_character = DEN_thorvald_stauning
 recruit_character = DEN_frits_clausen
 recruit_character = DEN_aksel_larsen
 recruit_character = DEN_peter_rochegune_munch
@@ -136,20 +135,24 @@ if = {
 
 
 set_politics = {
-	ruling_party = communism
-	last_election = "1935.10.22"
+	ruling_party = social_democracy
+	last_election = "1953.8.22"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_cosmetic_tag = DEN_SATELLITE_USSR
 set_popularities = {
-	communism = 84
-	fascism = 3
-	democratic = 10
-	neutrality = 3
+	social_democracy = 100
 }
 
-set_convoys = 20
+create_country_leader = {
+	name = "H. C. Hansen"
+	desc = "POLITICS_H_C_HANSEN_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
+	expire = "1965.1.1"
+	ideology = social_dem_type
+}
+
+set_convoys = 15
 
 ### VARIANTS ###
 # 1936 Start #

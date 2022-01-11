@@ -3,8 +3,7 @@ state={
 	name="STATE_804"
 
 	history={
-		owner = CRO
-		controller = CRO
+		owner = YUG
 		
 		victory_points = {
 			9894 3

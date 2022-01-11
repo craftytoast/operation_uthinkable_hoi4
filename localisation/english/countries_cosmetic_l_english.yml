@@ -16,6 +16,9 @@
  TUR_USSR_communism:0 "Anatolian Socialist Republic"
  TUR_USSR_communism_DEF:0 "the Anatolian Socialist Republic"
 
+ RHI_SOV_subject:0 "Rhineland Soviet Authority"
+ RHI_SOV_subject_DEF:0 "the Rhineland Soviet Authority"
+
  # FFR Puppets
  FFR_MRT_COLONY:0 "French Mauritania"
  FFR_MRT_COLONY_DEF:0 "French Mauritania"

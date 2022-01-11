@@ -2,15 +2,15 @@
 state={
 	id=454
 	name="STATE_454" #Palestine
-	manpower = 933142
+	manpower = 1635142
 	
 	state_category = town
 
 	history={
-		owner = ISR
+		owner = PAL
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 3
+			industrial_complex = 2
 			arms_factory = 1
 			air_base = 2
 			4206 = {
@@ -26,6 +26,7 @@ state={
 		victory_points = {
 			1065 1 
 		}
+		add_extra_state_shared_building_slots = 1
 		add_core_of = PAL
 		add_core_of = ISR
 	}

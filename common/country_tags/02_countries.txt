@@ -1,3 +1,4 @@
 KOG	= "countries/Kingdom of Greece.txt"
 NIT	= "countries/SR Italy.txt"
 FFR	= "countries/French Republic.txt"
+RHI	= "countries/Rhineland.txt"

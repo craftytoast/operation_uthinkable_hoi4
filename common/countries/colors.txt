@@ -12,6 +12,10 @@ FFR = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb { 57 113 228 }
 }
+RHI = {
+	color = rgb { 153 0 0 }
+	color_ui = rgb { 153 0 0 }
+}
 
 
 GER = {

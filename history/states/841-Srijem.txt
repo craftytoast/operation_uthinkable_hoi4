@@ -2,8 +2,7 @@ state={
 	id=841
 	name="STATE_841"
 	history = {
-		owner = CRO
-		controller = CRO
+		owner = YUG
 		
 		buildings = {
 			infrastructure = 3
@@ -11,7 +10,6 @@ state={
 		add_core_of = CRO
 		add_core_of = YUG
 		add_claim_by = SER
-		add_core_of = VJV
 	}
 	provinces={
 		11577 11580
