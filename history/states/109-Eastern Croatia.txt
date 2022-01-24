@@ -6,6 +6,9 @@ state={
 		owner = YUG
 		
 		victory_points = {
+			13244 20
+		}
+		victory_points = {
 			624 1
 		}
 		victory_points = {
