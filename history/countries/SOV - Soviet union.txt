@@ -870,6 +870,10 @@ if = {
 		target = RHI
 		autonomous_state = autonomy_puppet
 	}
+	set_autonomy = {
+		target = KUR
+		autonomous_state = autonomy_puppet
+	}
 	else = {
 		puppet = POL
 		puppet = ROM
@@ -1278,7 +1282,6 @@ set_popularities = {
 create_faction = Comintern
 add_to_faction = SOV
 add_to_faction = MON
-add_to_faction = TAN
 add_to_faction = GER
 add_to_faction = HOL
 add_to_faction = BEL

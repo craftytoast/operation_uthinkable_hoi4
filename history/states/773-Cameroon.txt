@@ -4,17 +4,19 @@ state={
 	name="STATE_773" # Cameroon
 	manpower = 2945782
 	
-	state_category = rural
+	state_category = town
 
 	history={
-		owner = CMR
+		owner = FFR
 		add_core_of = CMR
+		set_demilitarized_zone = yes
 		victory_points = {
-			2080 1
+			2080 3
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+			arms_factory = 1
 			air_base = 1
 			6039 = {
 				naval_base = 1

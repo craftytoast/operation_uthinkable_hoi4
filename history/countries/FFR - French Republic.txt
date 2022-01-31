@@ -38,59 +38,10 @@ set_technology = {
 	tactical_bomber1 = 1
 }
 
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	
-	set_autonomy = {
-		target = MLI
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = MRT
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-
-	else = {
-		puppet = MLI
-	}
-}
-
 add_ideas = {
 	FFR_failing_economy
 	FFR_government_in_exile
 	FFR_fading_regime_1
-}
-
-MRT = {
-	set_cosmetic_tag = FFR_MRT_COLONY
-	set_politics = {
-		ruling_party = paternal_autocracy
-		last_election = "1955.8.5"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		paternal_autocracy = 100
-	}
-}
-MLI = {
-	set_cosmetic_tag = FFR_MLI_COLONY
-	set_politics = {
-		ruling_party = paternal_autocracy
-		last_election = "1955.8.5"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		paternal_autocracy = 100
-	}
 }
 
 
