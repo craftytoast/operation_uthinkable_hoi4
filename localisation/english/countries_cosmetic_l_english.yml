@@ -16,8 +16,8 @@
  TUR_USSR_communism:0 "Anatolian Socialist Republic"
  TUR_USSR_communism_DEF:0 "the Anatolian Socialist Republic"
 
- RHI_SOV_subject:0 "Rhineland Soviet Authority"
- RHI_SOV_subject_DEF:0 "the Rhineland Soviet Authority"
+ RHI_SOV_subject:0 "Rhineland Workers Authority"
+ RHI_SOV_subject_DEF:0 "the Rhineland Workers Authority"
 
  # FFR Puppets
  FFR_MRT_COLONY:0 "French Mauritania"
@@ -26,6 +26,9 @@
  FFR_MLI_COLONY:0 "French Sudan"
  FFR_MLI_COLONY_DEF:0 "French Sudan"
  FFR_MLI_COLONY_ADJ:0 "French"
+
+ TIB_AUTONOMOUS:0 "Tibetian Autonomous State"
+ TIB_AUTONOMOUS_DEF:0 "the Tibetian Autonomous State"
 
  INS_HOL_democratic:0 "Dutch East Indies"
  INS_HOL_democratic_DEF:0 "the Dutch East Indies"

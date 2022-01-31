@@ -1,6 +1,6 @@
-version="v0.0.1"
+version="v0.0"
 tags={
 	"Alternative History"
 }
-name="Operation Unthinkable: Red Continent"
-supported_version="1.11.*"
+name="Operation Unthinkable: Red Continent (STEAM)"
+supported_version="1.11.4"

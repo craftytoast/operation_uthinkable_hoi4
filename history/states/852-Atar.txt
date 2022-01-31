@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = MRT
+		owner = FFR
 		add_core_of = MRT
 		buildings = {
 			infrastructure = 1

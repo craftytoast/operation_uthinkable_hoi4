@@ -6,8 +6,9 @@ state={
 	
 	state_category = rural
 	history={
-		owner = DAH
+		owner = FFR
 		add_core_of = DAH
+		set_demilitarized_zone = yes
 		victory_points = {
 			10919 1
 		}

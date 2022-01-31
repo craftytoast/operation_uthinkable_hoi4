@@ -3,13 +3,15 @@ state={
 	name="STATE_539"
 
 	history={
-		owner = GAB
+		owner = FFR
 		add_core_of = GAB
+		set_demilitarized_zone = yes
 		victory_points = {
 			5139 1 
 		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 			5139 = {
 				naval_base = 1
 

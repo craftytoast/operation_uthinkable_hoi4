@@ -6,9 +6,6 @@ state={
 		owner = YUG
 		
 		victory_points = {
-			13244 20
-		}
-		victory_points = {
 			624 1
 		}
 		victory_points = {
@@ -36,4 +33,5 @@ state={
 	manpower=1643624
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.0 
 }
