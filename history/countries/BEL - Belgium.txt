@@ -42,7 +42,7 @@ recruit_character = BEL_victor_van_strydonck_de_burkel
 recruit_character = BEL_paul-henri_spaak
 recruit_character = BEL_gaston_eyskens
 recruit_character = BEL_paul_van_zeeland
-
+recruit_character = BEL_leo_collard
 
 1939.1.1 = {
 	add_ideas = {
@@ -95,6 +95,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_cosmetic_tag = BEL_SATELLITE_USSR
+
 set_popularities = {
 	democratic = 16
 	fascism = 1

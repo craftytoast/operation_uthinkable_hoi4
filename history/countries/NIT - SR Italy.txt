@@ -8,7 +8,6 @@ set_technology = {
 set_convoys = 30
 
 1939.1.1 = {
-	
 	set_technology = {
 		tech_support = 1
 		tech_recon = 1
@@ -47,10 +46,14 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_cosmetic_tag = NIT_USSR
+
 set_popularities = {
 	democratic = 10
 	fascism = 3
 	neutrality = 7
 	communism = 80
 }
+
+recruit_character = ITA_palmiro_togliatti

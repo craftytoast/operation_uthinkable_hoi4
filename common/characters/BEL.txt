@@ -1,0 +1,16 @@
+characters = {
+	BEL_leo_collard = {
+		name="Leo Collard"
+		portraits = {
+			civilian = {
+				large = "Portrait_BEL_leo_collard"
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = { # }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
