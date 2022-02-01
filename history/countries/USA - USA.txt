@@ -264,7 +264,7 @@ add_to_faction = ENG
 add_to_faction = CAN
 add_to_faction = AST
 add_to_faction = NZL
-
+add_to_faction = POR
 add_to_faction = KOG
 add_to_faction = FFR
 add_to_faction = ITA
