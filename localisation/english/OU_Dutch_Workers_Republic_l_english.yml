@@ -1,0 +1,46 @@
+﻿l_english:
+ ### Bookmark ###
+ 
+ ### Country Name ###
+ HOL_fascism:0 "Dutch State"
+ HOL_fascism_DEF:0 "Dutch State"
+ HOL_democratic:0 "Republic of the Netherlands"
+ HOL_democratic_DEF:0 "the Republic of the Netherlands"
+ HOL_neutrality:0 "Republic of the Netherlands"
+ HOL_neutrality_DEF:0 "the Republic of the Netherlands"
+ HOL_communism:0 "Dutch Workers' Republic"
+ HOL_communism_DEF:0 "the Dutch Workers' Republic"
+ HOL_fascism_ADJ:0 "Dutch"
+ HOL_democratic_ADJ:0 "Dutch"
+ HOL_neutrality_ADJ:0 "Dutch"
+ HOL_communism_ADJ:0 "Dutch"
+ HOL:0 "Netherlands"
+ HOL_DEF:0 "the Netherlands"
+ HOL_ADJ:0 "Dutch"
+ 
+ ### Parties ### #Due to be changed when new ideologies are implemented
+ HOL_neutrality_party:1 "-"
+ HOL_neutrality_party_long:1 "-"
+ HOL_communism_party:0 "VSPN"  
+ HOL_communism_party_long:0 "Verenigde Socialistische Partij Nederland"
+ HOL_democratic_party:1 "-"
+ HOL_democratic_party_long:1 "-"
+ 
+ HOL_fascism_party:0 "NESB"
+ HOL_fascism_party_long:1 "National European Social Movement"
+ HOL_paternal_autocracy_party:0 "ANV"
+ HOL_paternal_autocracy_party_long:0 "Algemeen-Nederlands Verbond"
+ HOL_authoritarian_democracy_party:0 "ARP"
+ HOL_authoritarian_democracy_party_long:0 "Anti-Revolutionaire Partij"
+ HOL_conservative_democracy_party:0 "KVP"
+ HOL_conservative_democracy_party_long:0 "Katholieke Volkspartij"
+ HOL_liberal_democracy_party:0 "VVD"
+ HOL_liberal_democracy_party_long:0 "Volkspartij voor Vrijheid en Democratie"
+ HOL_social_democracy_party:0 "PvdA"
+ HOL_social_democracy_party_long:0 "Partij van de Arbeid"
+
+ ### Ideas ###
+ HOL_newspaper_waarheid:0 "De Waarheid"
+ 
+ ### Leaders ###
+ HOL_paul_de_groot:0 "Paul de Groot"

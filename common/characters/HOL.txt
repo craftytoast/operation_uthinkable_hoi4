@@ -1,0 +1,16 @@
+characters={
+	HOL_paul_de_groot={
+		name=HOL_paul_de_groot
+		portraits={
+			civilian={
+				large="GFX_portrait_HOL_lou_de_visser"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			#traits={ veteran_communist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
