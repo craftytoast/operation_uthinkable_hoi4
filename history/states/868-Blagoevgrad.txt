@@ -1,15 +1,15 @@
-
 state={
-	id=801
-	name="STATE_801"
+	id=868
+	name="STATE_868"
+	provinces={
+		3937 6857 9818 11813 
+	}
 
 	history={
 		owner = BUL
-		victory_points = {
-			3796 3 
-		}
 		buildings = {
 			infrastructure = 2
+			arms_factory = 1
 			industrial_complex = 1
 
 		}
@@ -17,11 +17,8 @@ state={
 
 	}
 
-	provinces={
-		3796 3819 3952 6842 9610 
-	}
-	manpower=9718780
+	manpower=484930
+	state_category=town
 	buildings_max_level_factor=1.000
-	state_category=rural
 	local_supplies=0.000
 }
