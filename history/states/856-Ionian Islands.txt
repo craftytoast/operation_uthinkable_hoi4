@@ -1,0 +1,28 @@
+state={
+	id=856
+	name="STATE_856"
+	provinces={
+		1106 10203
+	}
+	history={
+		owner = KOG
+		add_core_of = KOG
+		add_claim_by = GRE
+		victory_points = {
+			10203 1
+		}
+		buildings = {
+			infrastructure = 2
+			10203 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+	manpower=129870
+	state_category = small_island 
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

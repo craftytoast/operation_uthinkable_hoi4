@@ -6,9 +6,8 @@ state=
 	
 	state_category = small_island
 	
-	history=
-	{
-		owner = SOV
+	history = {
+		owner = KOG
 		victory_points = {
 			10007 1 
 		}
@@ -22,11 +21,12 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = GRE
+		add_core_of = KOG
+		add_claim_by = GRE
 	}
-	provinces=
-	{
-7003 10007 	}
+	provinces = {
+		7003 10007
+ 	}
 
 	local_supplies=0.0 
 }

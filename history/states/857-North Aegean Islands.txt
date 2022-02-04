@@ -1,0 +1,28 @@
+state={
+	id=857
+	name="STATE_857"
+	provinces={
+		8435
+	}
+	history={
+		owner = GRE
+		add_core_of = GRE
+		add_claim_by = KOG
+		victory_points = {
+			8435 1
+		}
+		buildings = {
+			infrastructure = 1
+			8435 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+	manpower=72980
+	state_category = small_island 
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
