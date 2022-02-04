@@ -842,3 +842,8 @@
  STATE_855:0 "Oran"
  STATE_856:0 "Ionian Islands"
  STATE_857:0 "North Aegean Islands"
+ STATE_858:0 "Western Thrace"
+ STATE_859:0 "Thessaloniki"
+ STATE_860:0 "Thessaly"
+ STATE_861:0 "Central Greece"
+ STATE_862:0 "Western Greece"

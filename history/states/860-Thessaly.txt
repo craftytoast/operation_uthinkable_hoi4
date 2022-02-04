@@ -1,25 +1,22 @@
-
 state={
-	id=731
-	name="STATE_731"
-
+	id=860
+	name="STATE_860"
+	provinces={
+		966 3844 6930 
+	}
 	history={
 		owner = GRE
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			air_base = 1
+			arms_factory = 1
+
 		}
 		add_core_of = GRE
 		add_claim_by = KOG
 
 	}
-
-	provinces={
-		936 3526 9837 10163 
-	}
-	manpower=335700
+	manpower=364532
+	state_category = rural
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
 }
