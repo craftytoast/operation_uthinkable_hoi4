@@ -38,12 +38,6 @@ set_technology = {
 	tactical_bomber1 = 1
 }
 
-add_ideas = {
-	FFR_failing_economy
-	FFR_government_in_exile
-	FFR_fading_regime_1
-}
-
 
 
 set_convoys = 20

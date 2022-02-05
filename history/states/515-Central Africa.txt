@@ -6,7 +6,7 @@ state={
 	history={
 		owner = FFR
 		add_core_of = NGR
-		set_demilitarized_zone = yes
+		impassable = yes
 		buildings = {
 			infrastructure = 1
 
