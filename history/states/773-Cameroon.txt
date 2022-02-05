@@ -7,11 +7,13 @@ state={
 	state_category = town
 
 	history={
-		owner = FFR
+		owner = CMR
 		add_core_of = CMR
-		set_demilitarized_zone = yes
 		victory_points = {
 			2080 3
+		}
+		victory_points = {
+			6039 2
 		}
 		buildings = {
 			infrastructure = 2

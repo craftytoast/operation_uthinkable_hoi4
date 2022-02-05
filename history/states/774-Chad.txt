@@ -3,9 +3,8 @@ state={
 	name="STATE_774"
 
 	history={
-		owner = FFR
+		owner = CHA
 		add_core_of = CHA
-		set_demilitarized_zone = yes
 		victory_points = {
 			2081 1
 		}

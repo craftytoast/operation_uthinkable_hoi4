@@ -6,9 +6,8 @@ state={
 	
 	state_category = town
 	history={
-		owner = FFR
+		owner = IVO
 		add_core_of = IVO
-		set_demilitarized_zone = yes
 		victory_points = {
 			10803 3
 		}

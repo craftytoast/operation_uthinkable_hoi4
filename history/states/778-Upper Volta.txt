@@ -8,7 +8,6 @@ state={
 	history={
 		owner = FFR
 		add_core_of = VOL
-		set_demilitarized_zone = yes
 		victory_points = {
 			10836 1
 		}

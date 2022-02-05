@@ -179,7 +179,7 @@ set_convoys = 40
 
 set_autonomy = {
 	target = TIB
-	autonomy_state = autonomy_chi_autonomous_region
+	autonomy_state = OU_autonomy_autonomous_region
 }
 TIB = {
 	set_cosmetic_tag = TIB_AUTONOMOUS

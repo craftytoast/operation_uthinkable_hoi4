@@ -1,0 +1,41 @@
+﻿focus_tree = {
+	id = french_republic_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FFR
+		}
+	}
+	
+	default = no
+	focus = {
+		id = FFR_focus_the_tunisian_crisis
+		icon = GFX_goal_generic_propaganda
+		x = 10
+		y = 0
+		prerequisite = {} 
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			
+		}
+	}
+		
+}

@@ -6,9 +6,8 @@ state={
 	
 	state_category = pastoral
 	history={
-		owner = FFR
+		owner = GNA
 		add_core_of = GNA
-		set_demilitarized_zone = yes
 		victory_points = {
 			1909 1 
 		}
