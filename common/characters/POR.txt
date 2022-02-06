@@ -1,0 +1,16 @@
+characters = {
+	POR_antonio_salazar = {
+		name="Antonio Salazar"
+		portraits = {
+			civilian = {
+				large = "Portrait_POR_Antonio_Salazar"
+			}
+		}
+		country_leader = {
+			ideology = one_party_system
+			traits = { # }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

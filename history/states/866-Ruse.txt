@@ -1,0 +1,29 @@
+state={
+	id=866
+	name="STATE_866"
+	provinces={
+		649 9612 9769 
+	}
+
+	history={
+		owner = BUL
+		victory_points = {
+			9769 1 
+		}
+		
+		victory_points = {
+			9612 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = BUL
+
+	}
+
+	manpower=354560
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -9,7 +9,7 @@ state={
 		oil=1
 	}
 	history={
-		owner = MRT
+		owner = FFR
 		add_core_of = MRT
 		victory_points = {
 			8058 1 

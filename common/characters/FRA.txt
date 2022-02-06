@@ -1,0 +1,16 @@
+characters = {
+	FRA_jacques_duclos = {
+		name="Jacques Duclos"
+		portraits = {
+			civilian = {
+				large = "Portrait_FRA_Jaqcues_Duclos"
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = { # }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

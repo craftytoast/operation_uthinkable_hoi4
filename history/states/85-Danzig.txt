@@ -10,13 +10,11 @@ state={
 			362 10
 		}
 		
-		set_demilitarized_zone = yes
-		
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 1
-			dockyard = 3
+			dockyard = 2
 			362 = {
 				naval_base = 5
 			}
@@ -24,9 +22,6 @@ state={
 		add_core_of = POL
 		add_core_of = DNZ
 		add_core_of = KSH
-		1938.3.12 = {
-			add_claim_by = GER
-		}
 	}
 
 	provinces={

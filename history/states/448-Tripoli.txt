@@ -7,13 +7,15 @@ state={
 	state_category = town
 
 	history={
-		owner = ITA
+		owner = LBA
 		
 		victory_points = {
 			1149 10 
 		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 			air_base = 6
 			1149 = {
 				naval_base = 5

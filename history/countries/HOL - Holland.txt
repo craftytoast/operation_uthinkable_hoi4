@@ -25,6 +25,7 @@ set_technology = {
 	basic_train = 1
 }
 
+
 recruit_character = HOL_paul_de_groot
 
 set_politics = {

@@ -53,7 +53,7 @@ GER_SATELLITE_USSR = {
     color = rgb { 153 14 14 }
     color_ui = rgb { 153 14 14 }
 }
-DEN_SATELLITE_USSR = {
+KUR_USSR = {
     color = rgb { 181 42 49 }
     color_ui = rgb { 181 42 49 }
 }
@@ -91,6 +91,11 @@ FFR_MRT_COLONY = {
 FFR_MLI_COLONY = {
     color = rgb { 57 113 228 }
     color_ui = rgb { 57 113 228 }
+}
+
+TIB_AUTONOMOUS = {
+    color = rgb { 19 69 148 }
+    color_ui = rgb { 19 69 148 }
 }
 
 

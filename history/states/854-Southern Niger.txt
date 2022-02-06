@@ -1,0 +1,20 @@
+state={
+	id=854
+	name="STATE_854"
+	provinces={
+		8028 10758 10780 10805 
+	}
+	history={
+		owner = FFR
+		add_core_of = NGR
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	state_category = pastoral
+	manpower=416000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

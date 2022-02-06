@@ -816,59 +816,51 @@ if = {
 	}
 	set_autonomy = {
 		target = POL
-		autonomous_state = autonomy_puppet
+		autonomous_state = OU_autonomy_satellite
 	}
 	set_autonomy = {
 		target = ROM
-		autonomous_state = autonomy_puppet
+		autonomous_state = OU_autonomy_satellite
 	}
 	set_autonomy = {
 		target = TUR
-		autonomous_state = autonomy_puppet
+		autonomous_state = OU_autonomy_satellite
 	}
 	set_autonomy = {
 		target = BUL
-		autonomous_state = autonomy_puppet
+		autonomous_state = OU_autonomy_satellite
 	}
 	set_autonomy = {
 		target = HUN
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = YUG
-		autonomous_state = autonomy_puppet
+		autonomous_state = OU_autonomy_satellite
 	}
 	set_autonomy = {
 		target = ALB
-		autonomous_state = autonomy_puppet
+		autonomous_state = OU_autonomy_satellite
 	}
 	set_autonomy = {
 		target = AUS
-		autonomous_state = autonomy_puppet
+		autonomous_state = OU_autonomy_satellite
 	}
 	set_autonomy = {
 		target = CZE
-		autonomous_state = autonomy_puppet
+		autonomous_state = OU_autonomy_satellite
 	}
 	set_autonomy = {
 		target = GRE
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = NIT
-		autonomous_state = autonomy_puppet
+		autonomous_state = OU_autonomy_satellite
 	}
 	set_autonomy = {
 		target = FIN
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = PER
-		autonomous_state = autonomy_puppet
+		autonomous_state = OU_autonomy_satellite
 	}
 	set_autonomy = {
 		target = RHI
-		autonomous_state = autonomy_puppet
+		autonomous_state = OU_autonomy_workers_authority
+	}
+	set_autonomy = {
+		target = KUR
+		autonomous_state = OU_autonomy_satellite
 	}
 	else = {
 		puppet = POL
@@ -876,14 +868,12 @@ if = {
 		puppet = TUR
 		puppet = BUL
 		puppet = HUN
-		puppet = YUG
 		puppet = ALB
 		puppet = AUS
 		puppet = CZE
 		puppet = GRE
 		puppet = NIT
 		puppet = FIN
-		puppet = PER
 		puppet = RHI
 	}
 }
@@ -1278,7 +1268,6 @@ set_popularities = {
 create_faction = Comintern
 add_to_faction = SOV
 add_to_faction = MON
-add_to_faction = TAN
 add_to_faction = GER
 add_to_faction = HOL
 add_to_faction = BEL

@@ -1,0 +1,16 @@
+characters = {
+	ITA_palmiro_togliatti = {
+		name="Palmiro Togliatti"
+		portraits = {
+			civilian = {
+				large = "Portrait_ITA_palmiro_togliatti"
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = { # }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

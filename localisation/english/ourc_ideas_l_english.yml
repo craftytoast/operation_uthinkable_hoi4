@@ -1,10 +1,8 @@
 ﻿l_english:
+ # Laws
+ american_consumer_economy:0 "American Consumer Economy"
  # French Rep. and Colonies
- FFR_failing_economy:0 "Failing Economy"
- FFR_government_in_exile:0 "French Government-in-Exile"
- FFR_government_in_exile_desc:0 "When Paris fell for the second time in the last ten years, the French Government, headed by §YCharles de Gaulle,§! fled to Algiers as the mainland fell. In the §YTreaty of Berlin,§! the USSR created a socialist state headed by the Parti Communiste Francais, exiling the Republicans to the former colonies. By the time de Gaulle founded the Fifth Republic in 1949, only Algeria, Tunis, Corsica, Mali, and Mauritania remained under republican rule."
- FFR_fading_regime_1:0 "Alphonse Juin's Fading Regime"
- FFR_fading_regime_1_desc:0 "After the flee to Algiers, and the establishment of the Fifth French Republic, §YCharles de Gaulle§! knew he was deeply unpopular for letting the mainland fall once again, even if it wasn't entirely his fault. Thus, only four months into his presidency, he retired. He was then succeded by §YAlphonse Juin,§! who went about establising a one-party state, with himself at it's center. But with time, the people have gotten tired of Juin's authoritarian regime, and unrest is growing exponentially in every corner of the Republic, from the homes of the people to the halls of Government buildings, from the beaches of Corsica to the dunes of the Sahara."
+ FFR_refuge_crisis_base:0 "Growing Refuge Crisis"
  
  # French Commune
  FRA_second_purge:0 "The Second Purge"

@@ -38,81 +38,30 @@ set_technology = {
 	tactical_bomber1 = 1
 }
 
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	
-	set_autonomy = {
-		target = MLI
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = MRT
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-
-	else = {
-		puppet = MLI
-	}
-}
-
 add_ideas = {
-	FFR_failing_economy
-	FFR_government_in_exile
-	FFR_fading_regime_1
+	FFR_refuge_crisis_base
 }
-
-MRT = {
-	set_cosmetic_tag = FFR_MRT_COLONY
-	set_politics = {
-		ruling_party = paternal_autocracy
-		last_election = "1955.8.5"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		paternal_autocracy = 100
-	}
-}
-MLI = {
-	set_cosmetic_tag = FFR_MLI_COLONY
-	set_politics = {
-		ruling_party = paternal_autocracy
-		last_election = "1955.8.5"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		paternal_autocracy = 100
-	}
-}
-
 
 
 set_convoys = 20
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = conservative_democracy
 	last_election = "1955.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	authoritarian_democracy = 80
-	democratic = 15
-	paternal_autocracy = 5
+	paternal_autocracy = 10
+	conservative_democracy = 66
+	social_democracy = 5
+	liberal_democracy = 19
 }
 
 create_country_leader = {
-	name = "Alphonse Juin"
-	desc = "POLITICS_ALPHONSE_JUIN_DESC"
-	picture = "gfx/leaders/FFR/portrait_ffr_alphonse_juin.dds"
+	name = "Charles de Gaulle"
+	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
+	picture = "gfx/leaders/FFR/portrait_ffr_de_gaulle.dds"
 	expire = "1965.1.1"
-	ideology = one_party_system
+	ideology = conservative_dem_type
 }

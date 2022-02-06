@@ -9,11 +9,11 @@ state={
 		owner = IVO
 		add_core_of = IVO
 		victory_points = {
-			10803 1
+			10803 3
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
+			industrial_complex = 1
 			arms_factory = 1
 			10803 = {
 				naval_base = 1
