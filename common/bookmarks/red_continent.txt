@@ -18,6 +18,16 @@ bookmarks = {
 				SOV_patriarch_of_all_russia
 			}
 		}
+		
+		GER = {
+			history = GER_OURC_DESC
+			ideology = communism
+			ideas = {
+				GER_forced_rhenish_trade_embargo
+				GER_doubtful_workers
+				GER_nationale_volksarmee
+			}
+		}
 
 		"---"={
 			history = "OTHER_OURC_DESC"

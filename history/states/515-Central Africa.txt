@@ -6,14 +6,13 @@ state={
 	history={
 		owner = FFR
 		add_core_of = NGR
-		
 		buildings = {
 			infrastructure = 1
 
 		}
 
 	}
-	impassable = yes
+
 	provinces={
 		1956 4913 7939 8128 10917 
 	}

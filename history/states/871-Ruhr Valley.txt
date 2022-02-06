@@ -1,0 +1,36 @@
+state={
+	id=871
+	name="STATE_871"
+	provinces={
+		495 6469 13261 13262 13263
+	}
+
+	history={
+		owner = RHI
+		victory_points = {
+			13261 25
+		}
+		victory_points = {
+			495 20 
+		}
+		victory_points = {
+			13262 10
+		}
+		victory_points = {
+			6469 10 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 2
+		}
+		add_core_of = RHI
+
+	}
+
+	manpower=2453634
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

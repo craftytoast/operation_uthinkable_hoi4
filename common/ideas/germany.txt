@@ -1,0 +1,94 @@
+ideas = {
+
+	country = {
+		GER_forced_rhenish_trade_embargo = {
+			picture = GER_forced_rhenish_trade_embargo_icon
+			
+			allowed = {
+				original_tag = GER
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				min_export = -0.2
+				trade_opinion_factor = -0.5
+				trade_laws_cost_factor = 1
+				economy_cost_factor = 1
+				monthly_population = -0.45
+			}
+			targeted_modifier = {
+				tag = RHI
+				trade_opinion_factor = -2
+				extra_trade_to_target_factor = -0.75
+				trade_cost_for_target_factor = 0.5
+			}
+		}
+	}
+	
+	country = {
+		GER_doubtful_workers = {
+			picture = GER_doubtful_workers_icon
+			
+			allowed = {
+				original_tag = GER
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.3
+				global_building_slots_factor = -0.2
+				industrial_capacity_factory = -0.3
+				production_speed_buildings_factor = -0.2
+			}
+		}
+	}
+	
+	country = {
+		GER_outdated_leadership = {
+			picture = GER_outdated_leadership_icon
+			
+			allowed = {
+				original_tag = GER
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				communism_drift = 0.05
+				communism_acceptance = 100
+				autonomy_gain = -0.2
+			}
+			targeted_modifier = {
+				tag = SOV
+				opinion_gain_monthly_factor = 0.1
+			}
+		}
+	}
+	
+	country = {
+		GER_nationale_volksarmee = {
+			picture = GER_nationale_volksarmee_icon
+			
+			allowed = {
+				original_tag = GER
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				command_power_gain_mult = 0.05
+				minimum_training_level = -0.1
+			}
+		}
+	}
+}

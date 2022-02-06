@@ -2,7 +2,7 @@
 state={
 	id=57
 	name="STATE_57"
-	manpower = 5109333
+	manpower = 4809333
 	state_category = large_city
 
 	history={
@@ -32,7 +32,7 @@ state={
 	}
 
 	provinces={
-		405 495 3355 3398 6535 6622 9443 9509 11346 11431 
+		405 3355 3398 6535 6622 9443 9509 11346 11431 
 	}
 
 	local_supplies=0.0 
