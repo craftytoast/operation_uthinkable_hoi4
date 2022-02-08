@@ -7,6 +7,7 @@ characters={
 			}
 		}
 		country_leader={
+			desc = GER_wilhelm_pieck_desc
 			ideology=stalinism
 			expire="1965.1.1.1"
 			id=-1
