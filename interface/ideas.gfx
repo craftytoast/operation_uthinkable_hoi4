@@ -2,21 +2,21 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_idea_GER_forced_rhenish_trade_embargo_icon"
-		texturefile = "gfx/interface/ideas/GER_forced_rhenish_trade_embargo_icon.dds"		
+		texturefile = "gfx/interface/ideas/GER/GER_forced_rhenish_trade_embargo_icon.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_idea_GER_doubtful_workers_icon"
-		texturefile = "gfx/interface/ideas/GER_doubtful_workers_icon.dds"		
+		texturefile = "gfx/interface/ideas/GER/GER_doubtful_workers_icon.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_idea_GER_outdated_leadership_icon"
-		texturefile = "gfx/interface/ideas/GER_outdated_leadership_icon.dds"		
+		texturefile = "gfx/interface/ideas/GER/GER_outdated_leadership_icon.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_idea_GER_nationale_volksarmee_icon"
-		texturefile = "gfx/interface/ideas/GER_nationale_volksarmee_icon.dds"		
+		texturefile = "gfx/interface/ideas/GER/GER_nationale_volksarmee_icon.dds"
 	}
 }

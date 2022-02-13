@@ -3,7 +3,7 @@ characters={
 		name=GER_wilhelm_pieck
 		portraits={
 			civilian={
-				large=GFX_portrait_GER_wilhelm_pieck
+				large = "gfx/leaders/GER/portrait_GER_wilhelm_pieck.dds"
 			}
 		}
 		country_leader={
