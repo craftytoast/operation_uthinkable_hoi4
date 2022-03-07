@@ -19,4 +19,24 @@ spriteTypes = {
 		name = "GFX_idea_GER_nationale_volksarmee_icon"
 		texturefile = "gfx/interface/ideas/GER/GER_nationale_volksarmee_icon.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_idea_ENG_darkest_hour_icon"
+		texturefile = "gfx/interface/ideas/ENG/ENG_darkest_hour.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ENG_economic_downturn"
+		texturefile = "gfx/interface/ideas/ENG/ENG_economic_downturn.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ENG_new_britain"
+		texturefile = "gfx/interface/ideas/ENG/ENG_new_britain.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ENG_ineffective_labour"
+		texturefile = "gfx/interface/ideas/ENG/ENG_ineffective_labour_govt.dds"
+	}		
 }

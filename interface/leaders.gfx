@@ -1,0 +1,12 @@
+spriteTypes = {
+	### ENG Leaders
+	
+	spriteType = {
+		name = "GFX_portrait_eng_gaitskell"
+		texturefile = "gfx/leaders/ENG/portrait_eng_gaitskell.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_eng_wilson"
+		texturefile = "gfx/leaders/ENG/portrait_eng_wilson.dds"
+	}
+}
