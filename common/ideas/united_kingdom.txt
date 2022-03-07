@@ -1,0 +1,82 @@
+ideas = {
+
+	country = {
+
+		ENG_our_darkest_hour = {
+			picture = ENG_darkest_hour_icon
+			allowed = {
+				original_tag = ENG
+				always = no
+			}
+ 
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.1
+				drift_defence_factor = 0.1
+			}
+		}
+		ENG_economic_downturn = {
+			picture = ENG_economic_downturn
+			allowed = {
+				original_tag = ENG
+				always = no
+			}
+ 
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.2
+				global_building_slots_factor = -0.15
+				industrial_capacity_factory = -0.1
+				conversion_cost_civ_to_mil_factor = 0.3
+			}
+		}
+			ENG_ineffective_labour_government = {
+			picture = ENG_ineffective_labour
+			allowed = {
+				original_tag = ENG
+				always = no
+			}
+ 
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conservative_democracy_drift = 0.05
+				stability_weekly_factor = -0.05
+				political_power_gain = -0.25
+			}
+		}	
+			ENG_new_britain = {
+			picture = ENG_new_britain
+			allowed = {
+				original_tag = ENG
+				always = no
+			}
+ 
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+				industry_repair_factor = 0.1
+			}
+		}	
+	}
+}
