@@ -1,0 +1,32 @@
+characters = {
+	ENG_hugh_gaitskell = {
+		name = "Hugh Gaitskell"
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_eng_gaitskell"
+			}
+		}
+		country_leader = {
+			desc = eng_harold_wilson_desc
+			ideology = social_dem_type
+			#traits = {  }
+			expire = "1975.1.1.1"
+			id = -1
+		}
+	}
+	ENG_harold_wilson = {
+		name = "Harold Wilson"
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_eng_wilson"
+			}
+		}
+		country_leader = {
+			desc = ENG_harold_wilson_desc
+			ideology = social_dem_type
+			#traits = {  }
+			expire = "1975.1.1.1"
+			id = -1
+		}
+	}
+}
