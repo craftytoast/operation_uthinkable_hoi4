@@ -32,7 +32,7 @@ load_oob = "ENG_Motorized"
 set_research_slots = 4
 
 set_stability = 0.6
-set_war_support = 0.1
+set_war_support = 0.6
 add_command_power = 20
 
 # Starting tech
@@ -132,7 +132,6 @@ if = {
 		improved_secondary_battery = 1
 		basic_fire_control_system = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 	set_global_flag = MTG_second_london_conference
 	set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
 }
@@ -149,8 +148,6 @@ if = {
 set_variable = { var = eng_gateway_to_europe_influence value = 0 }
 
 add_ideas = {
-	stiff_upper_lip
-	ENG_the_war_to_end_all_wars
 	george_v
 }
 	
@@ -165,7 +162,7 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-1939.1.1 = {
+1957.1.1 = {
 	
 	#adding ministers
 	add_ideas = {
@@ -174,35 +171,19 @@ if = {
 		rsaf_enfield
 		archibald_wavell
 		charles_portal
-		english_electric		
+		english_electric
+		ENG_our_darkest_hour
+		ENG_economic_downturn
+		ENG_ineffective_labour_government
+		ENG_new_britain
 
 		#laws
 		partial_economic_mobilisation
 		limited_conscription
 
-		ENG_george_vi
-	}
-
-	create_country_leader = {
-		name = "Hugh Gaitskell"
-		desc = "POLITICS_HUGH_GAITSKELL_DESC"
-		picture = "gfx/leaders/FFR/portrait_ffr_alphonse_juin.dds"
-		expire = "1965.1.1"
-		ideology = social_dem_type
 	}
 	retire_character = ENG_stanley_baldwin
 	remove_ideas = george_v #Dead
-
-	complete_national_focus = limited_rearmament_focus
-	complete_national_focus = air_defense_focus
-	complete_national_focus = radar_focus
-	complete_national_focus = shadow_scheme_focus
-	complete_national_focus = uk_empire_focus
-	complete_national_focus = uk_service_focus
-	complete_national_focus = uk_colonial_focus
-	complete_national_focus = uk_mediterranean_focus
-	complete_national_focus = uk_asia_focus
-	complete_national_focus = uk_commonwealth_focus
 
 	if = {
 		limit = {
@@ -381,6 +362,8 @@ add_to_faction = MAL
 #give_guarantee = CZE
 
 # Order matters - here Chamberlain becomes starting leader
+recruit_character = ENG_harold_wilson
+recruit_character = ENG_hugh_gaitskell 
 recruit_character = ENG_oswald_mosley
 recruit_character = ENG_stanley_baldwin
 recruit_character = ENG_winston_churchill
